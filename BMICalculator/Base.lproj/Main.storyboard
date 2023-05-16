@@ -146,25 +146,28 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Qw3-2c-aSX">
-                                <rect key="frame" x="20" y="200" width="353" height="110.33333333333331"/>
+                                <rect key="frame" x="100" y="200" width="193" height="135"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BMI 결과값" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UdF-s9-45e">
-                                        <rect key="frame" x="0.0" y="0.0" width="353" height="20.333333333333332"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="193" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="FiF-F8-Vwy">
-                                        <rect key="frame" x="0.0" y="50.333333333333343" width="353" height="60"/>
+                                        <rect key="frame" x="0.0" y="50.33333333333335" width="193" height="84.666666666666686"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pdR-9U-ObC">
-                                                <rect key="frame" x="0.0" y="0.0" width="353" height="25.333333333333332"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="193" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="T1U-A3-bHQ"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jz0-hi-BHw">
-                                                <rect key="frame" x="0.0" y="38.333333333333343" width="353" height="21.666666666666671"/>
+                                                <rect key="frame" x="0.0" y="62.999999999999964" width="193" height="21.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -177,10 +180,10 @@
                         <viewLayoutGuide key="safeArea" id="t6I-v3-0tB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="t6I-v3-0tB" firstAttribute="trailing" secondItem="Qw3-2c-aSX" secondAttribute="trailing" constant="20" id="5C7-Ty-o4y"/>
+                            <constraint firstItem="t6I-v3-0tB" firstAttribute="trailing" secondItem="Qw3-2c-aSX" secondAttribute="trailing" constant="100" id="5C7-Ty-o4y"/>
                             <constraint firstItem="t6I-v3-0tB" firstAttribute="trailing" secondItem="T8h-wn-CFg" secondAttribute="trailing" constant="20" id="NzY-fH-qk0"/>
                             <constraint firstItem="T8h-wn-CFg" firstAttribute="leading" secondItem="t6I-v3-0tB" secondAttribute="leading" constant="20" id="Olk-q5-ATd"/>
-                            <constraint firstItem="Qw3-2c-aSX" firstAttribute="leading" secondItem="t6I-v3-0tB" secondAttribute="leading" constant="20" id="WAE-Al-aIE"/>
+                            <constraint firstItem="Qw3-2c-aSX" firstAttribute="leading" secondItem="t6I-v3-0tB" secondAttribute="leading" constant="100" id="WAE-Al-aIE"/>
                             <constraint firstItem="Qw3-2c-aSX" firstAttribute="top" secondItem="t6I-v3-0tB" secondAttribute="top" constant="200" id="YnL-GU-K5Z"/>
                             <constraint firstItem="t6I-v3-0tB" firstAttribute="bottom" secondItem="T8h-wn-CFg" secondAttribute="bottom" constant="80" id="Ys4-ic-VjW"/>
                         </constraints>
