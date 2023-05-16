@@ -97,7 +97,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="e8A-gW-3g8" kind="presentation" modalPresentationStyle="fullScreen" id="jmX-NE-nFQ"/>
+                                    <segue destination="e8A-gW-3g8" kind="presentation" identifier="mySegue" modalPresentationStyle="fullScreen" id="jmX-NE-nFQ"/>
                                 </connections>
                             </button>
                         </subviews>

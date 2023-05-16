@@ -15,7 +15,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var weightTextField: UITextField!
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         heightTextField.delegate = self
@@ -31,14 +30,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
         heightTextField.becomeFirstResponder()
         heightTextField.keyboardType = .numberPad
         weightTextField.keyboardType = .numberPad
-        calculateButton.backgroundColor = .gray
     }
     
     
     // textField에 숫자만 입력가능
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
-        if Int(string) != nil || string == "" {
+        if Double(string) != nil || string == "" {
             return true
         }
         return false
@@ -83,6 +81,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "mySegue" {
+            let nextVC = segue.destination as! SecondViewController
+            nextVC.height = Double(heightTextField.text!)! / 100.0
+            nextVC.weight = Double(weightTextField.text!)
+        }
+        
+    }
 
 }
 
