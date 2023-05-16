@@ -112,15 +112,20 @@
                             <constraint firstItem="b1k-0h-zuA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="uPF-Uq-7p5"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="calculateButton" destination="b1k-0h-zuA" id="VDj-R6-84I"/>
+                        <outlet property="heightTextField" destination="YvW-Sc-PE9" id="gGK-le-eFY"/>
+                        <outlet property="weightTextField" destination="t70-1t-guh" id="ln4-M0-4ah"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="OGd-09-fbB">
             <objects>
-                <viewController id="e8A-gW-3g8" sceneMemberID="viewController">
+                <viewController id="e8A-gW-3g8" customClass="SecondViewController" customModule="BMICalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oOp-Xe-kih">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -136,6 +141,9 @@
                                 <state key="normal" title="다시하기">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="backTapped:" destination="e8A-gW-3g8" eventType="touchUpInside" id="Vsd-Am-0Gu"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Qw3-2c-aSX">
                                 <rect key="frame" x="20" y="200" width="353" height="110.33333333333331"/>
@@ -177,6 +185,10 @@
                             <constraint firstItem="t6I-v3-0tB" firstAttribute="bottom" secondItem="T8h-wn-CFg" secondAttribute="bottom" constant="80" id="Ys4-ic-VjW"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bmiLabel" destination="pdR-9U-ObC" id="Kwu-kS-gPi"/>
+                        <outlet property="resultLabel" destination="Jz0-hi-BHw" id="AVY-cv-iG0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zoo-Wf-8Vc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

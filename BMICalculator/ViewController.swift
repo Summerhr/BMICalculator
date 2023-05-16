@@ -9,11 +9,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var calculateButton: UIButton!
+    @IBOutlet weak var heightTextField: UITextField!
+    @IBOutlet weak var weightTextField: UITextField!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
     }
 
+    
+    
+    
 
 }
 
