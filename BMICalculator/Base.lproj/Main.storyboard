@@ -96,6 +96,9 @@
                                 <state key="normal" title="BMI 계산하기">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="e8A-gW-3g8" kind="presentation" modalPresentationStyle="fullScreen" id="jmX-NE-nFQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -123,7 +126,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T8h-wn-CFg">
-                                <rect key="frame" x="20" y="698" width="353" height="40"/>
+                                <rect key="frame" x="20" y="732" width="353" height="40"/>
                                 <color key="backgroundColor" red="0.46547648470000003" green="0.60826755799999999" blue="0.47411307450000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="kJa-2R-kdm"/>
@@ -135,7 +138,7 @@
                                 </state>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Qw3-2c-aSX">
-                                <rect key="frame" x="20" y="259" width="353" height="110.33333333333331"/>
+                                <rect key="frame" x="20" y="200" width="353" height="110.33333333333331"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BMI 결과값" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UdF-s9-45e">
                                         <rect key="frame" x="0.0" y="0.0" width="353" height="20.333333333333332"/>
@@ -144,7 +147,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="FiF-F8-Vwy">
-                                        <rect key="frame" x="0.0" y="50.333333333333314" width="353" height="60"/>
+                                        <rect key="frame" x="0.0" y="50.333333333333343" width="353" height="60"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pdR-9U-ObC">
                                                 <rect key="frame" x="0.0" y="0.0" width="353" height="25.333333333333332"/>
@@ -153,7 +156,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jz0-hi-BHw">
-                                                <rect key="frame" x="0.0" y="38.333333333333371" width="353" height="21.666666666666671"/>
+                                                <rect key="frame" x="0.0" y="38.333333333333343" width="353" height="21.666666666666671"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
