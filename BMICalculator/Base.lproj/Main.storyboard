@@ -186,6 +186,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="backButton" destination="T8h-wn-CFg" id="5qb-2U-Pzx"/>
                         <outlet property="bmiLabel" destination="pdR-9U-ObC" id="Kwu-kS-gPi"/>
                         <outlet property="resultLabel" destination="Jz0-hi-BHw" id="AVY-cv-iG0"/>
                     </connections>

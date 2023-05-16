@@ -19,9 +19,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        setupUI()
+    
     }
 
+    func setupUI () {
+        calculateButton.layer.cornerRadius = 8
+        view.backgroundColor = .systemGray5
+    }
     
     
     
